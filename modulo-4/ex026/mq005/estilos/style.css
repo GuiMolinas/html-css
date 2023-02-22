@@ -21,7 +21,7 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -35,10 +35,10 @@ menu > ul > li > a {
     text-align: center;
     background-color: rgb(97, 94, 94);
     color: white;
-    border-top: 2px solid rgb(95, 94, 94);
+    border-top: 2px solid rgb(143, 139, 139);
 }
 
-menu > ul > li > a::hover {
+menu > ul > li > a:hover {
     background-color: gray;
 }
 
@@ -59,4 +59,18 @@ article > p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+}
+
+span#menu {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#menu:hover {
+    background-color: white;
+    color: black;
 }
